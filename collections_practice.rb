@@ -39,7 +39,7 @@ def add_s(array)
     if index == 1
       string
     else
-      string.concat("s")
+      string.concat("s") # << also works
     end
   end
 end
