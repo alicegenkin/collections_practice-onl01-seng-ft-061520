@@ -34,5 +34,7 @@ array.inject(0) {|sum, i|  sum + i }
 end
 
 def add_s(array)
-array.each {|word| word.concat(“s”) }
+array.each_with_index.collect {|element, index| } 
+element.concat(“s”)
+end
 end
