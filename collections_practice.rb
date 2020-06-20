@@ -34,7 +34,7 @@ array.inject(0) {|sum, i|  sum + i }
 end
 
 def add_s(array)
-array.each_with_index.collect {|element, index| } 
+array.each_with_index.collect {|element, index| }
 element.concat(“s”)
 end
 end
